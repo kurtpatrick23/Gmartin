@@ -1,0 +1,393 @@
+* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center, dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+
+}
+
+/* END OF ERIC MEYERS RESET */ 
+
+body{
+	font-family: 'Open Sans',verdana, arial, sans-serif;
+}
+div.container{
+	width: 1366px;
+	margin: 0 auto;
+	background-image: url(../img/stone_texture.jpg);
+}
+
+header{
+	width: 1366px;
+	height: 115px;
+	
+	font-size: 46px;
+	font-family: 'Lobster Two', cursive;
+	text-align: center;
+	color: white;
+	position: relative; top: 10px;
+}
+
+nav{
+	width: 1366px;
+	height: 50px;
+	background-color: #000066;
+	color: white;
+	font-size: 24px;
+	font-family: 'Open Sans', Helvetica, sans-serif; 
+	font-weight: bold;
+	text-align: center;
+	 
+}
+
+nav ul {
+	text-align: left;
+	display: inline;
+	margin: 0;
+	padding: 15px 4px 27px 0;
+	position: relative; top: 5px;
+	list-style: none;
+}
+
+	nav ul li { 
+	display: inline;
+	margin-right: -4px;
+	position: relative;
+	top: 7.5px;
+	padding: 0px 60px;
+
+  	cursor: pointer;
+  	-webkit-transition: all 0.2s;
+  	-ms-transition: all 0.2s;
+  	-moz-transition: all 0.2s;
+  	-o-transition: all 0.2s;
+  	transition: all 0.2s
+  	-color: white;
+  }
+
+  /* unvisited link */
+a:link {
+    color: white;
+    text-decoration: none;
+}
+
+
+/* mouse over link */
+a:hover {
+    color: red;
+    text-decoration: none;
+}
+
+/* selected link */
+a:active {
+    color: black;
+    text-decoration: none;
+}
+
+
+
+section.content{
+	width: 910px;
+	height: auto;
+	float: left;
+}
+
+section.news_about{
+	width: 910px;
+	height: 80px;
+	background-color: darkgrey;
+	
+}
+
+h2{
+	text-align: center;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-size: 34px;
+	margin: 0 auto;
+	position: relative; top: 20px;
+	color: black;
+}
+
+h3{
+	text-align: center;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	font-size: 28px;
+	margin: 0 auto;
+	color: black;
+}
+
+p{
+	font-size: 16px;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	margin top: 5px;
+	margin-bottom: 10px;
+	padding: 10px;
+	line-height: 1.5;
+	overflow: hidden;
+
+}
+
+h4{
+	font-size: 24px;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	text-align: center;
+	color: white;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+
+section.top-half{
+	width: 410px;
+	height: 360px;
+	background-color: #A8A8A8;
+	float: left;
+	padding: 30px;
+	margin: 20px;
+	margin-top: 30px;
+	box-sizing: border-box;      /* very important to contain text wihtout breaking*/
+}
+
+section.bottom-half{
+	width: 410px;
+	height: 360px;
+	background-color: #A8A8A8;
+	float: left;
+	padding: 30px;
+	margin: 20px;
+	margin-bottom: 30px;
+	box-sizing: border-box;      /* very important to contain text wihtout breaking*/
+}
+
+aside{
+	width: 456px;
+	height: auto;
+	background-color: #580000;
+	float: left;
+	position: relative; 
+	bottom: 
+}
+
+#appearance{
+	height: 225px;
+	background-color: grey;
+
+}
+
+#publication{
+	height: 225px;
+	background-color: darkgrey;
+
+}
+
+#contact{
+	height: 225px;
+	background-color: grey;
+
+
+}
+
+.subscribe {
+  margin: 0 auto 
+  padding: 20px;
+  position: relative;left: 130px; top: 50px; 
+}
+
+
+footer {
+	width: 1366px;
+	height: 75px;
+	font-size: 16px;
+	font-family: 'Open Sans', Helvetica, sans-serif; 
+	font-weight: bold;
+	text-align: center;
+	background-color: darkgrey;
+	color: white;
+	margin: 0 auto;
+}
+
+	footer ul {
+	height: auto;
+	padding top: 10px ;
+	margin: 0;
+	list-style-type: none;
+	position: relative; top :10px;
+}
+
+	footer li { 
+	display: inline;
+	padding: 20px;
+	padding-top: 5px;
+  }
+
+  #copyright{
+  	margin: 0 auto;
+  }
+
+.clearfix{
+	clear: both;
+}
+
+/* About */
+
+section.top-third{
+	width: 277px;
+	height: 260px;
+	background-color: #787878;
+	float: left;
+	padding: 30px;
+	margin: 10px;
+	margin-top: 25px;
+	box-sizing: border-box;
+}
+
+section.bottom-third{
+	width: 277px;
+	height: 260px;
+	background-color: #787878;
+	float: left;
+	padding: 30px;
+	margin: 10px;
+	margin-bottom: 25px;
+	box-sizing: border-box;
+}
+
+.george{
+	position: relative; left: -25px; top: -25px;
+
+}
+
+.george_title{
+	font-size: 22px;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	text-align: center;
+	margin: 0 auto;
+	position: relative; top: -25px;
+	color: white;
+}
+
+/* books */
+
+div.books{
+	width: 1366px;
+	height: 80px;
+	background-color: grey;
+
+}
+
+div.content-book{
+	width: 1050px;
+	height: auto;
+
+	margin:0 auto;
+	
+}
+
+
+
+div.top-book{
+	width: 310px;
+	height: 260px;
+	background-color: #787878;
+	float: left;
+	padding: 30px;
+	margin: 10px;
+	margin-top: 20px;
+	margin-left: 25px;
+	box-sizing: border-box;
+
+
+}
+
+div.middle-book{
+	width: 310px;
+	height: 260px;
+	background-color: #787878;
+	float: left;
+	padding: 30px;
+	margin: 10px;
+	margin-top: 20px;
+	margin-left: 25px;
+	box-sizing: border-box;
+}
+
+div.bottom-book{
+	width: 310px;
+	height: 260px;
+	background-color: #787878;
+	float: left;
+	padding: 30px;
+	margin: 10px;
+	margin-top: 20px;
+	margin-left: 25px;
+	margin-bottom: 20px;
+	box-sizing: border-box;
+}
+
+.genre{
+	position: relative; left: -10px; top: -20px;
+}
+
+p.genre_title{
+	font-size: 22px;
+	font-family: 'Open Sans', Helvetica, sans-serif;
+	text-align: center;
+	margin: 0 auto;
+	position: relative; top: -25px;
+	color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
